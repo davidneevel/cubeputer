@@ -47,7 +47,7 @@ def generate_email(gmail_user, to_list):
     msg_html = u'<h1>CUBEPUTER</h1>'
 
     msg_html += u'<h3>CUBEPUTER</h3><div dir="ltr">''<img src="cid:{cid}" alt="{alt}"><br></div>'.format(alt=cgi.escape(img13['title'], quote=True), **img13)
-    msg_html += u'CUBEPUTER is a computer completely encased in concrete for ultimate secuity. No wires in or out. No physical connection to the outside world. What could be more secure? It is waterproof, perhaps even hammerproof. Here is some information on the building of Cubeputer:\n'
+    msg_html += u'CUBEPUTER is a computer completely encased in concrete for ultimate secuity. No wires in or out. No physical connection to the outside world. What could be more secure? It is waterproof, perhaps even hammerproof. Look at the picture above. This email was sent from within that concrete. Here is some information on the building of Cubeputer:\n'
 
     msg_html += u'<h3>Testing the circuit</h3><div dir="ltr">''<img src="cid:{cid}" alt="{alt}"><br></div>'.format(alt=cgi.escape(img1['title'], quote=True), **img1)
     msg_html += u'The first step was to get all the components together and make sure the Rapsberry Pi would get enough power from a wireless charger. Here is the wireless charger, wireless receiver, battery charger, battery and Raspberry Pi Zero all plugged in and running.\n'
